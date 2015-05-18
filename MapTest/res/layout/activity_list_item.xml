@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/ic_action_image_timer" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageview"
+        android:layout_marginLeft="2dp"
+        android:textColor="@android:color/white"
+        android:text="Item name here..."
+        android:textSize="15dp" />
+
+</RelativeLayout>
